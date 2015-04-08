@@ -13,9 +13,7 @@ class ServersController < ApplicationController
     })
 
     ec2 = Aws::EC2::Client.new(region: region)
-    data = ec2.describe_instances()
-
-    render text: data.to_json
+    @data = ec2.describe_instances()
   end
 
   def show
