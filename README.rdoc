@@ -2,3 +2,5 @@ Amazon notes
 
 rails g controller servers index show
 
+env CONURE_KEY=... CONURE_SECRET=... rails c
+
