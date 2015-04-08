@@ -3,6 +3,22 @@ Rails.application.routes.draw do
 
   get 'servers/show'
 
+  get 'servers/index'
+
+  get 'servers/show'
+
+  get 'servers/index'
+
+  get 'servers/show'
+
+  get 'servers/index'
+
+  get 'servers/show'
+
+  get 'servers/index'
+
+  get 'servers/show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
