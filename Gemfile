@@ -20,5 +20,6 @@ group :development, :test do
   gem 'spring'
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'awesome_print'
 end
 

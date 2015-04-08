@@ -1,0 +1,1 @@
+env CONURE_KEY=... CONURE_SECRET=... rails c

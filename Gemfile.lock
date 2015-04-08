@@ -37,6 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    awesome_print (1.6.1)
     aws-sdk (2.0.37)
       aws-sdk-resources (= 2.0.37)
     aws-sdk-core (2.0.37)
@@ -173,6 +174,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   aws-sdk (~> 2)
   byebug
   coffee-rails (~> 4.1.0)
